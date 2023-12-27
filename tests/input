@@ -1,0 +1,5 @@
+cat Makefile
+ls -la
+tree
+tree /usr/include
+find /usr/include

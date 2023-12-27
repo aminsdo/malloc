@@ -1,0 +1,11 @@
+This repository is an implementation of the following functions of the C
+standard library : (3) malloc, (3) realloc, (3) free, (3) calloc.
+
+You can compile this dynamic library by using the Makefile:
+
+make all            compile the library
+make libmalloc.so   compile the library
+make clean          clean the repository from compiled files
+
+To execute a program using the library you can write:
+LD_PRELOAD=./libmalloc.so [BIN]

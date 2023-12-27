@@ -1,0 +1,19 @@
+using first feet
+
+malloc                          done
+free                            done
+realloc                         done
+calloc                          done
+
+listing page                    done
+listing chunk                   done
+aligning data size to size_t    done
+
+allocation larger than a page   done
+
+pass the speed test             done
+pass the memory efficiency test done
+recompile itself                done
+implement thread safe           ____
+pass the greedy application test____
+pass the corruption proof test  ____
